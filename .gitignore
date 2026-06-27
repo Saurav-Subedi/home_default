@@ -1,0 +1,26 @@
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Python caching
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Data and large binary payloads (Prevents pushing massive raw CSV files)
+*.csv
+*.parquet
+*.zip
+*.gz
+*.joblib
+*.pkl
+
+# IDE settings
+.vscode/
+.idea/
